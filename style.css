@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(135deg,
+            #ffd6e8,
+            #d8e8ff,
+            #ffeaf4);
+}
+
+.container {
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    color: #ff5ca8;
+}
+
+h2 {
+    color: #c197ed;
+}
+
+.foto {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+}
+
+.welcome {
+    max-width: 700px;
+    margin: 20px auto;
+    line-height: 1.8;
+}
+
+.menu {
+    margin-top: 40px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+
+    text-decoration: none;
+    color: white;
+
+    border-radius: 50px;
+
+    background: linear-gradient(135deg,
+            #8ec5ff,
+            #ff9fd0);
+}
+
+.card {
+    max-width: 850px;
+    margin: auto;
+    background: rgb(223, 199, 199);
+    padding: 40px;
+    border-radius: 25px;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+    line-height: 2;
+}
+
+.dream-box {
+    background: #e8e0e8;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+
+.btn-back {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+
+    text-decoration: none;
+    color: rgb(181, 115, 115);
+
+    border-radius: 50px;
+
+    background: linear-gradient(135deg,
+            #8ec5ff,
+            #ff9fd0);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery img {
+    width: 220px;
+    border-radius: 20px;
+}
